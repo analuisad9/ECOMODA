@@ -1,0 +1,41 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100px;
+  font-size: 20px;
+}
+
+body {
+  padding-top: 80px; /* ajusta el valor según el espacio que quieras darle */
+}
+
+.navbar-brand {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  /* font-weight: bold; establece el grosor de la fuente en negrita. */
+}
+
+.navbar {
+  background-color: #e8e8e8; /* fondo de la navbar, quitar backdrop y solo poner color en donde dice transpa */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: blue;
+}

@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+/* Barra de navegación */
+body {
+  padding-top: 80px; /* ajusta el valor según el espacio que quieras darle */
+}
+
+.navbar-brand {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 35px;
+}
+
+.navbar {
+  background-color: #e8e8e8; /* fondo de la navbar, quitar backdrop y solo poner color en donde dice transpa */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.navbar-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-nav a:hover {
+  color: blue;
+}
+
+/* Estética del body */
+h3 {
+  margin-left: 40rem;
+  margin-top: -600px;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-left: 56%;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+
+.lista {
+  font-size: 20px;
+  margin-left: 58%;
+}
+
+/* css del formulario de contacto */
+
+h4 {
+  text-decoration: underline;
+  margin-top: 190px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-left: 300px;
+  color: black;
+}
+
+/* Texto de enviar reclamo dentro del botón */
+.form__input {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #2755c2;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* Lo que está dentro de reclamo */
+.form__text {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #2755c2;
+  color: black;
+  font-size: 27px;
+}
+
+/* categorías */
+.form__label {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.enviar {
+  width: 30%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #2755c2;
+  font-size: 1.4rem;
+  margin: 22px 0 22px 0;
+  cursor: pointer;
+  transition: all .5s ease;
+  color: white;
+  margin-left: 34%;
+
+}
+
+.enviar::hover {
+  background-color: #3364d694;
+}
+
+
+/* css ya del footer */
+
+footer {
+  margin-top: -800px;
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  height: 130px;
+}
+
+.foot {
+  display: flex;
+  margin-top: 900px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.redes {
+  margin-top: -2%;
+  font-size: 23px;
+  text-align: center;
+  width: 25%;
+  display: flex;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ayuda {
+  font-size: 23px;
+  width: 25%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.nosotros {
+  font-size: 23px;
+  width: 25%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+}
+
+.instagram {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+label.error{
+  color: red;
+}
+
+
+/* Estética del mapa API */
+
+#map {
+  height: 500px;
+  width: 45%;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
