@@ -38,13 +38,13 @@ body {
 
 /* Estética del body */
 h3 {
-  margin-left: 40rem;
+  margin-left: 52%;
   margin-top: -600px;
   margin-bottom: 20px;
 }
 
 .info {
-  margin-left: 56%;
+  margin-left: 52%;
   margin-top: 40px;
   font-size: 20px;
 }
@@ -135,7 +135,7 @@ footer {
 }
 
 .redes {
-  margin-top: -2%;
+ 
   font-size: 23px;
   text-align: center;
   width: 25%;
