@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+
+/* Barra de navegación */
+body {
+  padding-top: 80px; /* ajusta el valor según el espacio que quieras darle */
+}
+
+
+.navbar-brand {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 35px;
+}
+
+
+.navbar {
+  background-color: #e8e8e8; /* fondo de la navbar, quitar backdrop y solo poner color en donde dice transpa */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+
+.navbar-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.navbar-nav a:hover {
+  color: blue;
+}
+
+
+/* Estética del body */
+.titulo {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+header img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+
+.opciones-para-todos {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+
+.opciones-para-todos__contenido {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.opciones-para-todos__titulo {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.opciones-para-todos__parrafo {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+ /* video */
+ .video-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+/* texto debajo el video  */
+.nueva-seccion {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+
+.nueva-seccion__contenido {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.nueva-seccion__parrafo {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.nueva-seccion__parrafo{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+/* css ya del footer */
+
+
+footer {
+    margin-top: -800px;
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 130px;
+  }
+ 
+  .foot {
+    display: flex;
+    margin-top: 900px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+ 
+  .redes {
+    font-size: 23px;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .ayuda {
+    font-size: 23px;
+    width: 25%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+ 
+  .nosotros {
+    font-size: 23px;
+    width: 25%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+ 
+  .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+  }
+ 
+  .instagram {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+ 
+  label.error{
+    color: red;
+  }
+ 
